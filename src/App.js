@@ -1,6 +1,9 @@
 import { React, Suspense, lazy, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
+// Importation des helpers
+import {checkmode} from './helpers/themeMode'
+
 // MAIN PAGES
 const Main = lazy(() => import('./pages/mainPage/main'))
 
@@ -18,7 +21,12 @@ const Loader = lazy(() => import('./pages/loaderPage/loader'))
 // TEST PAGES
 const TokenTest = lazy(() => import('./pages/test/testToken'))
 
+
 function App() {
+
+
+  checkmode()
+
   return (
     <Suspense fallback={<Loader />}>
       <Routes>

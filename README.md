@@ -1,4 +1,4 @@
-# SUPERNOVA Default Projet for Hackathon
+# SUPERNOVA
 <p align="center"><a href="https://www.facebook.com/supernovatechcommunity" target="_blank"><img src="./src/assets/image/supenova/SupernovaLogo.jpg" width="400" alt="Supernova Logo"></a></p>
 
 ## Qui somme nous

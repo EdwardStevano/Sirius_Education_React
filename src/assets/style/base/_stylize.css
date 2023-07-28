@@ -1,0 +1,151 @@
+.submit-button {
+    padding: 15px 25px;
+    background-color: var(--PrimaryColor);
+    outline: none;
+    border: none;
+    color: var(--AllwhiteColor);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.submit-button.response {
+    display: none;
+}
+
+.submit-button:hover {
+    /* animation: 5s rainbow infinite; */
+    /* background: var(--linearColor1); */
+    box-shadow: 0px 2px 0px var(--darkColor);
+    transform: translateY(-2px);
+}
+
+.whitetextTodark {
+    color: var(--whiteColor);
+}
+
+.darktextTowhite {
+    color: var(--darkFontColor);
+}
+
+.success-color {
+    background-color: var(--succescolor);
+}
+
+.danger-color {
+    background-color: var(--dangercolor);
+}
+
+.waring-color {
+    background-color: var(--warningcolor);
+}
+
+.showmore-btn {
+    font-size: 12px;
+    color: var(--PrimaryColor);
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+}
+
+.swiper {
+    overflow: inherit;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: inherit;
+    color: var(--BackgroundColor);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    font-size: 8px;
+    font-weight: 1000;
+    font-family: poppins;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 100%;
+    transition: .3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-pagination {
+    bottom: 30px;
+    margin-top: 30px;
+}
+
+.faq-container {
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    font-size: 19px;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+.collapsed::after {
+    content: '+';
+}
+
+.expanded::after {
+    content: '-';
+}
+
+.answer {
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.document-content {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.document-content h3 {
+    margin-top: 0;
+}
+
+.document-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.document-content select {
+    width: 100%;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.document-content .ql-editor {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.document-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+}

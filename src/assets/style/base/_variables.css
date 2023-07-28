@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+:root {
+    /* principal color */
+    --primaryColor: #1f98fa;
+    --disabledColor: #7f7f7f;
+    --whiteColor: #ffffff;
+    --fillInput: #fff;
+    --greyColor: #E9ECF4;
+
+    /* background */
+    --backgroundColor: #F5FBFF;
+
+    /* Transparent Color */
+    --whiteColorTransparent: rgba(255, 255, 255, 0.7);
+    --darkColorTransparent: rgba(0, 0, 0, 0.06);
+
+    /* Font color */
+    --darkFontColor: #0a101c;
+    --lightFontColor: #222e43;
+
+    /* Success color */
+    --succesColor: #439F47;
+    --darksuccesColor: #26822b;
+
+    /* Warning color */
+    --warningColor: #FEA23C;
+    --darkwarningColor: rgb(196, 111, 0);
+
+    /* Danger color */
+    --dangerColor: #df0b0b;
+    --darkdangerColor: #ff2600;
+
+    /* linear color */
+    --linearColor1: linear-gradient(to right, #368bf9 0%, #ba00e4 100%);
+    --linearColor2: linear-gradient(to right, #1A90E8 10%, #439F47 100%);
+
+    /* Supplement color */
+    --color1: #FFB000;
+    --color2: #D30074;
+    --color3: #e96e16;
+
+    /* Font family */
+    --DefaultFont: Poppins;
+    --TitleFont: Poppins;
+}
+
+.darktheme {
+    /* principal color */
+    --primaryColor: #2864be;
+    --disabledColor: #2b3749;
+    --whiteColor: #1F2938;
+    --fillInput: #1F2938;
+
+
+    /* background */
+    --backgroundColor: #101928;
+
+    --whiteColorTransparent: rgba(0, 0, 0, 0.5);
+    --darkColorTransparent: rgba(255, 255, 255, 0.1);
+    --greyColor: #33445f;
+
+    /* Font color */
+    --DarkFontColor: #fff;
+    --LightFontColor: #fff;
+
+    /* Success color */
+    --succescolor: #439F47;
+    --darksuccescolor: #26822b;
+
+    /* Warning color */
+    --warningcolor: #FEA23C;
+    --darkwarningcolor: rgb(196, 111, 0);
+
+    /* Danger color */
+    --dangercolor: #df0b0b;
+    --darkdangercolor: #ff2600;
+
+
+    /* linear color */
+    --linearColor1: linear-gradient(to right, #43B3FF 0%, #004487 100%);
+    --linearColor2: linear-gradient(to right, #095a83 10%, #434C97 100%);
+
+    /* supplement color */
+    --color1: #FFB000;
+    --color2: #D30074;
+    --color3: #e96e16;
+
+    /* Font family */
+    --DefaultFont: Poppins;
+    --TitleFont: Poppins;
+}

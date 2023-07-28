@@ -1,0 +1,64 @@
+/* Normalisation du css */
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: poppins;
+}
+
+*::selection {
+  background-color: var(--PrimaryColor);
+}
+
+body {
+  background-color: var(--BackgroundColor);
+}
+
+/*windown scroll*/
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .2);
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-corner {
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar {
+  padding: 20px 0px;
+  background: var(--fillInput);
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar:hover,
+*::-webkit-scrollbar:hover {
+  background: var(--fillInput);
+}
+
+/* Normalisation */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+img {
+  border-style: none;
+}
