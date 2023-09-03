@@ -1,4 +1,4 @@
-// BaseURL Local
+// BaseURL en Local
 export const getBaseUrl = () => {
   return 'http://localhost:8000/api'; 
 };

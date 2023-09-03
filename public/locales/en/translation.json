@@ -1,0 +1,38 @@
+{
+  "supertitle": "SUPERNOVA Stater project",
+  "superintro": "SUPERNOVA 🚀, a group of young and dynamic web developers who are tech enthusiasts, aspiring coders and visionary creators. Our goal is to illuminate the digital cosmos.",
+
+  "header": {
+    "welcome": "Welcome",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact Us",
+    "learnMore": "Learn More",
+    "language": "Language",
+    "explore": "Explore",
+    "send": "Send",
+    "error": "Error",
+    "notFound": "Page Not Found",
+    "footerText": "All rights reserved"
+  },
+
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+
+  "bannerText": "Explore our new spring-summer collection.",
+  "ctaText": "Sign up now and get 10% off on your first purchase!",
+
+  "services": {
+    "webDesign": "Professional, modern, and tailored web design services.",
+    "seo": "Search engine optimization to enhance online visibility.",
+    "consulting": "Expert consulting to boost your digital presence."
+  },
+
+  "dashboardWelcome": "Welcome to {{ApplicationName}}, [Username]! Explore a comprehensive overview of your activity and effortlessly manage your tasks and personal data."
+
+}

@@ -1,0 +1,38 @@
+{
+  "supertitle": "Projet de démarrage SUPERNOVA",
+  "superintro":"SUPERNOVA 🚀, un groupe de développeurs web jeune et dynamique qui est de passionnés technologiques, d'aspirants codeurs et de créateurs visionnaires. Notre objectif, c'est d'éclairer le cosmos numérique.",
+
+  "header": {
+    "welcome": "Bienvenue",
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contactez-nous",
+    "learnMore": "En savoir plus",
+    "language": "Langue",
+    "explore": "Explorer",
+    "send": "Envoyer",
+    "error": "Erreur",
+    "notFound": "Page non trouvée",
+    "footerText": "Tous droits réservés"
+  },
+
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+
+  "bannerText": "Découvrez notre nouvelle collection printemps-été.",
+  "ctaText": "Inscrivez-vous dès maintenant et bénéficiez d'une réduction de 10% sur votre premier achat !",
+
+  "services": {
+    "webDesign": "Conception de sites web professionnels, modernes et adaptés à vos besoins.",
+    "seo": "Optimisation pour les moteurs de recherche pour améliorer la visibilité en ligne.",
+    "consulting": "Conseils experts pour développer votre présence numérique."
+  },
+
+  "dashboardWelcome": "Bienvenue sur {{ApplicationName}}, {{Name}}! Découvrez un aperçu complet de votre activité et gérez facilement vos tâches et données personnelles."
+
+}

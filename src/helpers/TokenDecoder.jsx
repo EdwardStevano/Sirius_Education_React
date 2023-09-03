@@ -10,7 +10,10 @@ const TokenDecoder = () => {
         } catch (error) {
             console.error('Error decoding token:', error.message);
         }
+    }else{
+        return <div> [Informatiosn vide]  </div>;
     }
+
 
     return null;
 };

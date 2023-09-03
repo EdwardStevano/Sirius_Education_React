@@ -1,5 +1,6 @@
-/* base style */
+/* base style import*/
 @import 'base/_globalStyle.css';
 @import 'base/_stylize.css';
 @import 'base/_variables.css';
 @import 'base/_normalize.css';
+@import 'base/_animation.css';

@@ -1,0 +1,207 @@
+.staterSupernova{
+    background-color: var(--backgroundColor);
+    background-image: url('../../assets/image/supenova/SuperBack.png');
+    background-size: cover;
+    color: #150734;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.staterSupernova .content{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    height: 80%;
+    align-items: center;
+}
+
+.staterSupernova .footer{
+    height: 7%;
+    padding: 10px;
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center;
+    color: var(--darkFontColor);
+    opacity: .6;
+    justify-content: space-between;
+    font-size: 12px;
+    transition: .3s;
+}
+
+.staterSupernova .headbar{
+    width: 100%;
+    max-width: 1000px;
+    height: 7%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--darkFontColor);
+    text-align: right;
+}
+
+.staterSupernova .headbar .mode-btn{
+    display: flex;
+    align-items: center;
+}
+
+.language-dropdown {
+  font-family: Poopins;
+  background-color: green;
+  border-radius: 20px;
+  border: none;
+  /* margin: 10px; */
+}
+
+.select-style {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primaryColor);
+    color: var(--fillInput);
+    appearance: none;
+    font-size: 14px;
+    font-family: Poppins;
+  }
+  
+  .select-style:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1); /* Une légère mise en évidence lorsqu'il est en focus */
+  }
+
+  /* Style spécifique pour chaque langue */
+.en-style {
+    background-color: #3498db; /* Bleu pour l'anglais */
+    color: #fff; /* Texte en blanc */
+  }
+  
+  .fr-style {
+    background-color: #e74c3c; /* Rouge pour le français */
+    color: #fff; /* Texte en blanc */
+  }
+  
+  .mg-style {
+    background-color: #27ae60; /* Vert pour l'espagnol */
+    color: #fff; /* Texte en blanc */
+  }
+  
+  /* Style de flèche personnalisée (optionnel) */
+  .select-style::after {
+    content: '\f078'; /* Utilisez une icône de flèche vers le bas ou toute autre icône de votre choix */
+    font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+.staterSupernova .headbar .mode-btn span{
+    opacity: .4;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.staterSupernova .headbar .mode-btn img{
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.staterSupernova .headbar .mode-btn img:hover{
+    transform: scale(1.2);
+}
+
+.staterSupernova .left img{
+    width: 100%;
+    animation: float_Animation1 3s infinite ease;
+}
+
+.staterSupernova .left, .staterSupernova .right{
+    width: 50%;
+}
+
+.staterSupernova .right{
+    padding: 20px;
+    color: var(--darkFontColor);
+}
+
+.staterSupernova .right p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.staterSupernova .right a{
+    padding: 15px;
+    border-radius: 10px;
+    text-align: right;
+    transition: .4s ease;
+    background-color: var(--primaryColor);
+    font-size: 14px;
+    color: #fff;
+}
+
+.staterSupernova .right a:hover{
+    background-color: var(--color1);
+    padding: 15px 40px;
+    /* color: var(--darkFontColor); */
+    box-shadow: 0px 0px 30px rgba(255, 153, 0, 0.89);
+}
+
+.footer .left{
+    width: 100%;
+    display: flex;
+}
+
+.footer .right{
+    width: 20%;
+}
+
+.footer .right{
+    text-align: right;
+}
+
+.footer .left a, .footer .left p{
+    margin-right: 10px;
+}
+
+.footer .left a:hover{
+    color: var(--primaryColor);
+}
+
+
+@media screen and (max-width: 769px){
+    .staterSupernova .content{
+        flex-direction: column;
+    }
+
+    .staterSupernova .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .left{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .staterSupernova .right{
+        width: 80%;
+        text-align: center;
+    }
+    
+}

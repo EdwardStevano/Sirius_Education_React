@@ -1,0 +1,46 @@
+@keyframes float_Animation1 {
+    0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-10px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+}
+
+@keyframes float_Animation2 {
+  0% {
+    transform: translatey(0px);
+    transform: rotate(-50deg);
+  }
+  50% {
+    transform: translatey(-20px);
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: translatey(0px);
+    transform: rotate(-50deg);
+  }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

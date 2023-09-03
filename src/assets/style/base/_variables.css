@@ -1,5 +1,5 @@
+/* Font import from Font Awesome */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 :root {
     /* principal color */
@@ -21,7 +21,7 @@
     --lightFontColor: #222e43;
 
     /* Success color */
-    --succesColor: #439F47;
+    --succesColor: #3aa23f;
     --darksuccesColor: #26822b;
 
     /* Warning color */
@@ -40,6 +40,7 @@
     --color1: #FFB000;
     --color2: #D30074;
     --color3: #e96e16;
+    --color4: #06b91e;
 
     /* Font family */
     --DefaultFont: Poppins;
@@ -62,8 +63,8 @@
     --greyColor: #33445f;
 
     /* Font color */
-    --DarkFontColor: #fff;
-    --LightFontColor: #fff;
+    --darkFontColor: #fff;
+    --lightFontColor: #fff;
 
     /* Success color */
     --succescolor: #439F47;
@@ -86,6 +87,7 @@
     --color1: #FFB000;
     --color2: #D30074;
     --color3: #e96e16;
+    --color4: #06b91e;
 
     /* Font family */
     --DefaultFont: Poppins;

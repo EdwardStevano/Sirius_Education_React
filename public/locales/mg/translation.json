@@ -1,0 +1,38 @@
+{
+    "supertitle": "Tetikasa fanombohanan'ny SUPERNOVA",
+    "superintro":"SUPERNOVA 🚀, vondron'ny mpamorona tranonkala tanora sy mavitrika izay tia teknolojia. Ny tanjonay dia ny hanazava ny cosmos nomerika.",
+
+    "header": {
+        "welcome": "Tongasoa",
+        "home": "Fandraisana",
+        "about": "Momba",
+        "services": "Fikarakarana",
+        "contact": "Handefa hafatra",
+        "learnMore": "Hifandraisana tsara kokoa",
+        "language": "Fiteny",
+        "explore": "Hijery",
+        "send": "Alefa",
+        "error": "Fahadisoana",
+        "notFound": "Tsy hitanao ny pejy",
+        "footerText": "Tsinontsinona rehetra voalohany"
+    },
+
+    "sidebar": {
+        "dashboard": "Biraon'ny mpizahatany",
+        "profile": "Profily",
+        "settings": "Fikarohana",
+        "logout": "Hiala"
+    },
+
+    "bannerText": "Hijery ny boky vaovao ankapobeny amin'ny volana aogositra.",
+    "ctaText": "Mifidy ankehitriny ary mandeha mivantana mba haharay 10% ho an'ny fizarana voalohanyo !",
+
+    "services": {
+        "webDesign": "Fikarohana fitaovam-piadiana malalaka sy vaovao mifototra amin'ny fomba ampiasainao.",
+        "seo": "Fampiharana ho an'ny famantarana fitaovam-piadiana mba hahatonga ny mombamomba ao anatin'ny rindrina.",
+        "consulting": "Fampitandremana mpanjifa mpiantoka mba hampidirina ny fikarohanao amin'ny toerana tsirairay."
+    },
+
+    "dashboardWelcome": "Tongasoa ao anatin'ny {{ApplicationName}}, {{Name}} ! Jerena fahasarotan'ny asan'ny mpizaha tany sy manolotra fanazavana ny vaovao ananantsika."
+
+}

@@ -1,0 +1,29 @@
+/* Media query écrans de petite taille (téléphones) */
+@media screen and (max-width: 480px) {
+  /*  */
+}
+
+/* Media query  les tablettes en portrait */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /*  */
+}
+
+/* Media query tablettes en paysage */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /*  */
+}
+
+/* Media query pour écrans de taille moyenne (ordinateurs de bureau) */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /*  */
+}
+
+/* Media query pour les larges écrans de bureau */
+@media screen and (min-width: 1441px) {
+  /*  */
+}
+
+/* Media query pour les écrans 2K et + */
+@media screen and (min-width: 2560px) {
+  /*  */
+}
