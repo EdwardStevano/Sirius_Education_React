@@ -47,7 +47,7 @@ function main() {
               <select className={`select-style ${selectedLanguage}-style`}onChange={changeLanguage}>
                 <option value="fr" selected>Français</option>
                 <option value="en">English</option>
-                <option value="mg">Malagasy</option>
+                <option value="mg">Malagasys</option>
               </select>
                 :
                 <select onChange={changeLanguage}>
