@@ -7,16 +7,25 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  transition: .2s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
 *::selection {
-  background-color: var(--PrimaryColor);
+  background-color: #1d98fa;
 }
 
-body {
-  background-color: var(--BackgroundColor);
+body, .container {
+  background-color: var(--backgroundColor);
 }
+
+.main-container{
+  overflow-x: hidden;
+}
+
+.switchmode_icon{
+  cursor: pointer;
+}
+
 
 /*windown scroll*/
 *::-webkit-scrollbar-thumb,

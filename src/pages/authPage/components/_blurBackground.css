@@ -1,0 +1,37 @@
+.blurBackground{
+    z-index: 1;
+}
+
+.blurBackground .blur{
+    filter: blur(100px);
+    
+}
+
+.blurBackground .Box1{
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    top: -150px;
+    position: absolute;
+    background-color: var(--blurcolor1);
+}
+.blurBackground .Box2{
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    top: 650px;
+    left: 300px;
+    opacity: 1;
+    position: absolute;
+    background-color: var(--blurcolor2);
+}
+.blurBackground .Box3{
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    bottom: 0px;
+    right: 30px;
+    opacity: 1;
+    position: absolute;
+    background-color: var(--blurcolor3);
+}

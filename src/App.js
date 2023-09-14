@@ -1,4 +1,4 @@
-import { React, Suspense, lazy, useState } from 'react';
+import { React, Suspense, lazy, useState, useEffect as effect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Librairie de traduction
@@ -10,12 +10,15 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Importation des helpers
 import {checkmode} from './helpers/themeMode/checkmode'
+import {isNightTime} from './helpers/isNightTime'
 
 // MAIN PAGES
 const Main = lazy(() => import('./pages/mainPage/main'))
 
 // AUTHENTIFICATION PAGES
 const Login = lazy(() => import('./pages/authPage/Authentification'))
+const SignInPage = lazy(() => import('./pages/authPage/signIn/signIn'))
+const SignUpPage = lazy(() => import('./pages/authPage/signUp/signUp'))
 const ResetPassword = lazy(() => import('./pages/authPage/resetPassword/resetPassword'))
 
 // REDIRECT PAGES
@@ -42,6 +45,15 @@ i18n
 
 function App() {
 
+
+  // Effet pour mettre à jour le mode sombre en fonction de l'heure
+  effect(() => {
+    const isNight = isNightTime();
+    // Stockez la valeur du mode sombre dans localStorage
+    localStorage.setItem('SuperMode', isNight ? 'true' : 'false');
+    checkmode()
+  }, []);
+
   // THEME
   checkmode()
 
@@ -52,7 +64,11 @@ function App() {
         <Route path='/' element={<Main />} />
 
         {/* Authentification routes  */}
-        <Route path='/login' element={<Login />} />
+        <Route path='/login' element={<Login />}>
+            <Route index element={<SignInPage />} />
+            <Route path='signin' element={<SignInPage />} />
+            <Route path='signup' element={<SignUpPage />} /> 
+        </Route>
         <Route path='/password/reset' element={<ResetPassword />} />
 
         {/* Redirect routes  */}

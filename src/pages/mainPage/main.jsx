@@ -2,34 +2,23 @@ import React, { useState as state} from 'react'
 import "./supernovaStarterStyle.css"
 import { useTranslation as translate} from 'react-i18next';
 
-import supernovaLogo from './../../assets/image/supenova/logo512.png'
-import moon_icon from './../../assets/image/icon/svg/Moon_Icon.svg'
-import sun_icon from './../../assets/image/icon/svg/Sun_Icon.svg'
+// importation des section
+import Background from './components/background/blurBackground'
+import SiriusNavbar from './components/navbar/navbar'
+import SiriusBanner from './components/banner/banner'
+
+// importation des composant
+import ConnectionStatus from '../../components/connexionStatus/connectionStatus'
 
 function main() {
 
   const [isThemeDark, setIsThemeDark] = state(false);
   const [Themeicon, setThemeicon] = state();
-  const [selectedLanguage, setSelectedLanguage] = state('en');
+  const [selectedLanguage, setSelectedLanguage] = state('fr');
 
   const handleChange = (event) => {
     setSelectedLanguage(event.target.value);
   };
-
-
-  const switch_mode = () =>{
-    if(localStorage.getItem('SuperMode')==="true"){
-        localStorage.setItem('SuperMode', "false");
-        document.body.classList.remove('darktheme');
-        setIsThemeDark(false);
-        setThemeicon('usericon');
-    }else{
-        localStorage.setItem('SuperMode', "true");
-        document.body.classList.add('darktheme');
-        setIsThemeDark(true);
-        setThemeicon('moon_icon');
-    }
-  }
 
   const { t, i18n} = translate();
 
@@ -38,10 +27,10 @@ function main() {
   };
 
   return (
-    <div>
-      <div className="staterSupernova">
+    <div className='main-container'>
+      {/* <div className="staterSupernova">
         <div className="headbar">
-          {/* <span>SUPERNOVA</span> */}
+          <span>SUPERNOVA</span>
           <div className="language-dropdown">
               {(localStorage.getItem("i18nextLng") == "fr") ? 
               <select className={`select-style ${selectedLanguage}-style`}onChange={changeLanguage}>
@@ -89,7 +78,11 @@ function main() {
           <div className="right">Team Supernova</div>
 
         </div>
-      </div>
+      </div> */}
+      {/* <Background/> */}
+      <SiriusNavbar/>
+      <SiriusBanner/>
+      <ConnectionStatus/>
     </div>
   )
 }

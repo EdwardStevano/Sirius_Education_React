@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 // Mix Style
 import './assets/style/mixstyle.css';
 
+
 // Viewer
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

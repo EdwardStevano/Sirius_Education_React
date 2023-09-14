@@ -1,0 +1,160 @@
+.navbar-container{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    z-index: 5;
+    animation: swipeDown 0.4s ease-in-out;
+}
+
+.navbar {
+    max-width: 1200px;
+    display: flex;
+    z-index: 5;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    padding: 20px;
+    color: var(--darkFontColor);
+  }
+
+  .navbar-container.fixed-nav{
+    animation: fadeIn 0.8s ease-in-out;;
+    position: fixed;
+    top:0px;
+    background-color: rgba(255, 255, 255, .2);
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    z-index: 10;
+    backdrop-filter: blur(6px);
+}
+
+  .navbar .logo{
+    z-index: 5;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .menu li {
+    margin-right: 5px;
+  }
+  
+  .menu .menu-btn{
+    padding: 7px 13px;
+    border-radius: 15px;
+    opacity: 0.7;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out
+  }
+
+  .menu .menu-btn:hover, .menu .menu-btn.active{
+    /* color: var(--primaryColor); */
+    backdrop-filter: blur(60px);
+    opacity: 1;
+    background-color: var(--fillInput);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+    /* border-bottom: 1px solid var(--primaryColor); */
+  }
+
+  .buttons {
+    display: flex;
+  }
+  
+  .buttons .signup-button  {
+    background-color: transparent;
+    padding: 7px 14px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: var(--primaryColor);
+    transition: .4s ease;
+    cursor: pointer;
+    z-index: 3;
+    margin-right: 10px;
+    border: 1px solid var(--primaryColor);
+  }
+
+  .buttons .login-button{
+    background-color: var(--primaryColor);
+    padding: 7px 14px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s ease;
+    color: #fff;
+    z-index: 3;
+    margin-right: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .buttons .login-button:hover, .buttons .signup-button:hover{
+    background-color: var(--primaryColor);
+    color: #fff;
+    padding: 7px 20px;
+    /* box-shadow: 0px 0px 4px var(--primaryColor); */
+}
+  
+  .signup-button {
+    background-color: #4caf50; /* Couleur pour le bouton Inscription */
+  }
+  
+  .login-button {
+    background-color: #2196f3; /* Couleur pour le bouton Connexion */
+  }
+
+  .menu-button{
+    display: none; 
+  }
+  
+  
+/* Media query pour les tablettes (par exemple, jusqu'à 768px) */
+@media (max-width: 768px) {
+    .menu{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: -100%;
+        left: 0px;
+        height: 100vh;
+        box-shadow: 0px 5px 1;
+        width: 100%;
+        backdrop-filter: blur(40px);
+        transition: top 0.3s ease-out;
+    }
+
+    .menu.active {
+        top: 0%;      
+    }
+
+    .menu.active li{
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+  
+    .menu-button {
+      display: block;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  }
+  
+  /* Media query pour les écrans de téléphone (par exemple, jusqu'à 480px) */
+  @media (max-width: 480px) {
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

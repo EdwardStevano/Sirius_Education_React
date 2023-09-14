@@ -1,0 +1,90 @@
+.authentification-container{
+    height: 100vh;
+    display: flex;
+    background-image: url('../../assets/image/illustration/backParticule.png');
+    background-size: cover;
+}
+
+.authentification-content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.MiddleContent{
+    z-index: 3;
+    height: 76%;
+    display: flex;
+    padding: 15px 70px;
+    align-content: center;
+    align-items: center;
+}
+
+.signForm{
+    background-color: var(--fillInput);
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.signForm .inputform{
+    cursor: pointer;
+    padding: 10px;
+    transition: .4s ease;
+}
+
+.signForm .inputform:first-child{    
+    border-radius: 15px 15px 0px 0px;
+}
+.signForm .inputform:last-child{
+    border-radius: 0px 0px 15px 15px;
+}
+
+.signForm .inputform:hover{
+    background-color: var(--primaryColor);
+}
+
+.signForm .inputform:first-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.signForm .inputform .input-content input:first-child{    
+    border-radius: 15px 15px 0px 0px;
+}
+.signForm .inputform .input-content input:last-child{
+    border-radius: 0px 0px 15px 15px;
+}
+
+.signForm .inputform .input-content {
+    display: flex;
+    align-items: center;
+    margin: 0px 8px;
+}
+
+.signForm .inputform .input-content img{
+    width: 6%;
+}
+
+
+.signForm .inputform .input-content input{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px 10px 25px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    background-color: inherit;
+}
+
+.signForm .inputform .input-content input:hover{
+    color: #fff;
+    placeholder: #fff;
+}
+.signForm .inputform .input-content input:hover::placeholder{
+    color: #fff;
+}
+
+.authLoadIcon{
+    animation: 1s turnAround infinite linear; 
+}

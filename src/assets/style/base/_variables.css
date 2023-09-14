@@ -1,6 +1,6 @@
 /* Font import from Font Awesome */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Zen+Dots&display=swap');
 :root {
     /* principal color */
     --primaryColor: #1f98fa;
@@ -21,7 +21,7 @@
     --lightFontColor: #222e43;
 
     /* Success color */
-    --succesColor: #3aa23f;
+    --succesColor: #1b9a22;
     --darksuccesColor: #26822b;
 
     /* Warning color */
@@ -42,9 +42,14 @@
     --color3: #e96e16;
     --color4: #06b91e;
 
+    /* For blur background */
+    --blurcolor1: #eacc8c;
+    --blurcolor2: #69b0eb;
+    --blurcolor3: #99e29a;
+
     /* Font family */
-    --DefaultFont: Poppins;
-    --TitleFont: Poppins;
+    --DefaultFont: Raleway;
+    /* --TitleFont: Poppins; */
 }
 
 .darktheme {
@@ -88,6 +93,11 @@
     --color2: #D30074;
     --color3: #e96e16;
     --color4: #06b91e;
+
+    /* For blur background */
+    --blurcolor1: #76684a;
+    --blurcolor2: #537590;
+    --blurcolor3: #3b5c3c;
 
     /* Font family */
     --DefaultFont: Poppins;

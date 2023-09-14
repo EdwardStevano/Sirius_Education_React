@@ -1,0 +1,110 @@
+.SignUp .signIn-left{
+    z-index: 3;
+    width: 50%;
+    color: var(--darkFontColor);
+}
+
+.SignUp .signIn-right{
+    z-index: 3;
+    width: 50%;
+    text-align: center;
+}
+
+.SignUp .signIn-right .splineScene{
+    width: 100%;
+    z-index: 2;
+}
+
+.signIn-left h1{
+    font-size: 30px;
+    font-family: "monument";
+}
+
+.signIn-left span{
+    font-family: "monument";
+    transform: rotate(45deg);
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    top: -18px;
+    font-family: Poppins;
+    border-radius: 20px;
+    background: var(--color4);
+    padding: 2px 10px;
+}
+
+.signIn-left p{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .7;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.btn-signForm{
+    margin-top: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.btn-signForm label{
+    margin-left: 5px;
+}
+
+.remreber-check, .passForget{
+   cursor: pointer; 
+   transition: .3s ease;
+   opacity: .7;
+}
+
+.remreber-check:hover, .passForget:hover{
+   opacity: 1;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.btn-group button{
+    border-radius: 10px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.btn-group button:first-child{
+    background-color: var(--primaryColor);
+    color: #fff;
+}
+
+.btn-group button:first-child:hover{
+    background-color: var(--primaryColor);
+    padding: 12px 40px;
+    box-shadow: 0px 0px 10px #1f98fa;
+
+}
+
+.btn-group button:last-child{
+    background-color: transparent;
+    color: var(--darkFontColor);
+    border: 2px solid #fdae5300;
+}
+
+.btn-group button:last-child:hover{
+    border: 2px solid #5386fd71;
+    background-color: transparent;
+    color: var(--darkFontColor);
+    padding: 12px 40px;
+    /* animation: 2s float_Animation3 infinite ease; */
+}
